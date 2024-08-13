@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+.intro__card {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px black solid;
+    width: 340px;
+    height: 59px;
+}
+
+.intro__cardText {
+    margin-left: 20px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: "Rock Salt", cursive;
+    font-weight: 400;
+    font-style: normal;
+    &:hover{
+        color: #EFA7BD;
+        transition: 0.3s;
+    }
+}
+
+.intro__cardBlock {
+    margin-top: 20px;
+    margin-left: 47px;
+    width: 60px;
+    height: 60px;
+    background: #EFA7BD;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.intro__flexCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} 
+.intro__cardBlockText{
+    font-family: "Rock 3D", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: black;
+    &:hover{
+        color: white;
+        transition: 0.3s;
+    }
+}
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 350px;
+    
+    }
+    .card__icon{
+      
+        height: 30px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 425px) {
+    .container {
+        max-width: 300px;
+    }
+    .card__icon{
+      
+        height: 20px;
+        object-fit: cover;
+    }
+
+}

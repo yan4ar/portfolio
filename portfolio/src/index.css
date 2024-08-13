@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Rowdies:wght@300;400;700&display=swap');
+:root {
+  --body_background: #202020;
+  --body_color: white;
+  --link-color: white;
+  --grad_background: linear-gradient(180deg, #202020, #6d5ed0, #605ccd);
+  --grad_background_two: linear-gradient(180deg, #202020, #6d5ed0, #605ccd);
+  --grad_background_threeW:  -webkit-linear-gradient(180deg, #0e0528, #0e0528, #202020);
+  --grad_background_three:  linear-gradient(180deg, #0e0528, #0e0528, #202020);
+}
+
+[data-theme='light'] {
+  --body_background: #E0E0E0;
+  --body_color: #202020;
+  --link-color: #202020;
+  --grad_background: linear-gradient(180deg, #E0E0E0, #6d5ed0, #605ccd);
+  --grad_background_two: linear-gradient(180deg, #E0E0E0, #6d5ed0, #605ccd);
+  --grad_background_threeW:  -webkit-linear-gradient(180deg, #0e0528, #d7d6d8, #E0E0E0);
+  --grad_background_three:  linear-gradient(180deg, #0e0528, #d7d6d8, #E0E0E0);
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "jost-light", sans-serif;
+  border: 0;
+  outline: none;
+}
+
+body {
+  background-color: var(--body_background);
+}
