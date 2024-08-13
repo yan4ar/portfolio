@@ -1,9 +1,12 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": "https://yan4ar.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -16,6 +19,7 @@
     "@types/three": "^0.167.1",
     "axios": "^1.7.3",
     "framer-motion": "^11.3.24",
+    "gh-pages": "^6.1.1",
     "npm": "^10.8.2",
     "nvm": "^0.0.4",
     "prop-types": "^15.8.1",
